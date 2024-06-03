@@ -15,6 +15,7 @@ class MostFrequentClassifier(ClassifierMixin):
         '''
         self.param = round(mode(y).mode[0])
         self.is_fitted_ = True
+        print('Classifier fitted')
         return self
 
     def predict(self, X=None):
