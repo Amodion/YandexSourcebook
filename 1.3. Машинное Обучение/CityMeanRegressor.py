@@ -1,3 +1,9 @@
+'''
+
+Та же история. На машине все работает, но в контесте есть ошибка, но интерпретировать ее не могу, потому что полный лог ошибки не выводит.
+
+'''
+
 from sklearn.base import RegressorMixin
 import pandas as pd
 import numpy as np

@@ -1,0 +1,10 @@
+name: "yandex-sourcebook"
+services:
+  jupyter:
+    build:
+      context: .
+    ports:
+      - 8889:8888
+    volumes:
+      - ./:/home/jovyan/work
+    command: start-notebook.py --NotebookApp.token=''
